@@ -12,11 +12,13 @@
 <body>
   <div class="ambient ambient-one" aria-hidden="true"></div>
   <div class="ambient ambient-two" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="brand" href="#inicio"><span class="brand-mark">HK</span><span>Hallan Kazale</span></a>
-    <nav><a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><a href="#competencias">Competências</a><a href="#contato">Contato</a></nav>
+    <a class="brand" href="#inicio" aria-label="Ir para o início"><span class="brand-mark">HK</span><span>Hallan Kazale</span></a>
+    <nav aria-label="Navegação principal"><a href="#sobre">Sobre</a><a href="#projetos">Projetos</a><a href="#competencias">Competências</a><a href="#contato">Contato</a></nav>
     <a class="nav-cta" href="https://github.com/hallankazale" target="_blank" rel="noreferrer">GitHub ↗</a>
   </header>
+
   <main>
     <section id="inicio" class="hero container reveal">
       <div class="hero-copy">
@@ -28,25 +30,78 @@
       </div>
       <aside class="profile-card"><div class="profile-glow"></div><img src="https://avatars.githubusercontent.com/u/48835559?v=4" alt="Avatar de Hallan Kazale" width="280" height="280" /><div class="profile-content"><span class="availability"><i></i> Em desenvolvimento constante</span><h2>Hallan Kazale</h2><p>Desenvolvedor de Software</p><div class="profile-tags"><span>Web</span><span>Mobile</span><span>Linux</span><span>UX</span></div></div></aside>
     </section>
+
     <section id="sobre" class="section container reveal">
       <div class="section-intro"><span class="section-index">01</span><div><p class="kicker">SOBRE MIM</p><h2>Construção prática com visão de produto.</h2></div></div>
       <div class="about-grid"><p class="about-lead">Meu trabalho começa pelo problema, não pela tela. Busco entender o fluxo do usuário, regras de negócio, persistência, qualidade e como a solução pode crescer sem ficar difícil de manter.</p><div class="about-points"><article><span>01</span><div><h3>Arquitetura</h3><p>Separação de responsabilidades e código modular.</p></div></article><article><span>02</span><div><h3>Experiência</h3><p>Interfaces responsivas e fluxos simples.</p></div></article><article><span>03</span><div><h3>Qualidade</h3><p>Validação, tratamento de erros e testes.</p></div></article></div></div>
     </section>
-    <section id="projetos" class="section container reveal">
-      <div class="section-intro"><span class="section-index">02</span><div><p class="kicker">PROJETOS EM DESTAQUE</p><h2>Trabalhos que mostram produto, arquitetura e execução.</h2></div></div>
-      <div class="projects-grid">
-        <article class="project-card project-large"><a class="project-media" href="https://github.com/hallankazale/ozorio-os" target="_blank" rel="noreferrer"><img src="assets/previews/ozorio-os.svg" alt="Prévia visual do Ozorio OS" loading="lazy" /><span class="media-label">Linux • Sistema</span></a><div class="project-body"><div class="project-title"><h3>Ozorio OS</h3><span>01</span></div><p>Distribuição Linux leve para computadores antigos, com identidade própria, ferramentas integradas e organização modular.</p><div class="tech-list"><span>Linux</span><span>Shell</span><span>Automação</span><span>QA</span></div><a class="project-link" href="https://github.com/hallankazale/ozorio-os" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></article>
-        <article class="project-card"><a class="project-media project-media-real" href="https://github.com/hallankazale/pedido-carnes" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/hallankazale/pedido-carnes/main/docs/prototype/fluxo-completo.svg" alt="Protótipo visual do Pedido de Carnes" loading="lazy" /><span class="media-label">Mobile • Offline-first</span></a><div class="project-body"><div class="project-title"><h3>Pedido de Carnes</h3><span>02</span></div><p>App para pedidos a fornecedores via WhatsApp, com operação offline, SQLite e arquitetura separada entre domínio, infraestrutura e apresentação.</p><div class="tech-list"><span>React Native</span><span>Expo</span><span>SQLite</span></div><a class="project-link" href="https://github.com/hallankazale/pedido-carnes" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></article>
-        <article class="project-card"><a class="project-media" href="https://github.com/hallankazale/motoja" target="_blank" rel="noreferrer"><img src="assets/previews/motoja.svg" alt="Prévia visual do MotoJá" loading="lazy" /><span class="media-label">Mobilidade • UX</span></a><div class="project-body"><div class="project-title"><h3>MotoJá</h3><span>03</span></div><p>Protótipo de corridas de moto com fluxo do passageiro, origem, destino, estimativa, busca do motociclista e avaliação.</p><div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/hallankazale/motoja" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></article>
-        <article class="project-card"><a class="project-media" href="https://github.com/hallankazale/Assistaplay" target="_blank" rel="noreferrer"><img src="assets/previews/assistapay.svg" alt="Prévia visual do AssistaPay" loading="lazy" /><span class="media-label">Web • Produto</span></a><div class="project-body"><div class="project-title"><h3>AssistaPay</h3><span>04</span></div><p>MVP web com campanhas, perfis, validação de visualizações e painel administrativo.</p><div class="tech-list"><span>JavaScript</span><span>UX</span><span>Admin</span></div><a class="project-link" href="https://github.com/hallankazale/Assistaplay" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></article>
-        <article class="project-card"><a class="project-media" href="https://github.com/hallankazale/professional-pdf-editor" target="_blank" rel="noreferrer"><img src="assets/previews/document-tool.svg" alt="Prévia visual do Professional PDF Editor" loading="lazy" /><span class="media-label">Ferramentas • Web</span></a><div class="project-body"><div class="project-title"><h3>PDF Editor</h3><span>05</span></div><p>Editor web em arquitetura inicial, com TypeScript estrito, privacidade e componentes desacoplados.</p><div class="tech-list"><span>TypeScript</span><span>PDF</span><span>Privacy</span></div><a class="project-link" href="https://github.com/hallankazale/professional-pdf-editor" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></article>
-        <article class="project-card"><a class="project-media" href="https://github.com/hallankazale/lembrete-medicamentos-releases" target="_blank" rel="noreferrer"><img src="assets/previews/reminder-app.svg" alt="Prévia visual do Lembrete de Medicamentos" loading="lazy" /><span class="media-label">Android • Releases</span></a><div class="project-body"><div class="project-title"><h3>Lembrete de Medicamentos</h3><span>06</span></div><p>Aplicativo de lembretes com canal público de distribuição e atualização do APK.</p><div class="tech-list"><span>Android</span><span>APK</span><span>Atualizações</span></div><a class="project-link" href="https://github.com/hallankazale/lembrete-medicamentos-releases" target="_blank" rel="noreferrer">Abrir releases <b>↗</b></a></div></article>
+
+    <section id="projetos" class="section projects-section reveal">
+      <div class="container">
+        <div class="section-intro projects-heading"><span class="section-index">02</span><div><p class="kicker">PROJETOS EM DESTAQUE</p><h2>Explore meus projetos como uma vitrine de produto.</h2><p class="section-note">Arraste no celular ou use as setas. Cada tela destaca o problema, a interface e a tecnologia por trás da solução.</p></div></div>
+
+        <div class="carousel-shell" aria-roledescription="carrossel" aria-label="Projetos em destaque">
+          <div class="carousel-toolbar">
+            <div class="carousel-status"><span id="carousel-current">01</span><i></i><span>06</span></div>
+            <div class="carousel-controls">
+              <button class="carousel-button" id="carousel-prev" type="button" aria-label="Projeto anterior">←</button>
+              <button class="carousel-button" id="carousel-next" type="button" aria-label="Próximo projeto">→</button>
+            </div>
+          </div>
+
+          <div class="project-carousel" id="project-carousel" tabindex="0">
+            <div class="carousel-track">
+              <article class="project-slide is-active" data-index="0">
+                <a class="slide-visual" href="https://github.com/hallankazale/ozorio-os" target="_blank" rel="noreferrer"><img src="assets/previews/ozorio-os.svg" alt="Prévia visual do Ozorio OS" loading="eager" /><span class="media-label">Linux • Sistema</span><span class="visual-number">01</span></a>
+                <div class="slide-content"><div><p class="slide-kicker">PROJETO AUTORAL</p><h3>Ozorio OS</h3><p>Distribuição Linux leve para computadores antigos, com identidade própria, ferramentas integradas e organização modular.</p></div><div><div class="tech-list"><span>Linux</span><span>Shell</span><span>Automação</span><span>QA</span></div><a class="project-link" href="https://github.com/hallankazale/ozorio-os" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></div>
+              </article>
+
+              <article class="project-slide" data-index="1">
+                <a class="slide-visual real-preview" href="https://github.com/hallankazale/pedido-carnes" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/hallankazale/pedido-carnes/main/docs/prototype/fluxo-completo.svg" alt="Protótipo real do Pedido de Carnes" loading="lazy" /><span class="media-label">Mobile • Offline-first</span><span class="visual-number">02</span></a>
+                <div class="slide-content"><div><p class="slide-kicker">APP MOBILE</p><h3>Pedido de Carnes</h3><p>Pedidos a fornecedores via WhatsApp com funcionamento offline, SQLite e separação entre domínio, infraestrutura e apresentação.</p></div><div><div class="tech-list"><span>React Native</span><span>Expo</span><span>SQLite</span></div><a class="project-link" href="https://github.com/hallankazale/pedido-carnes" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></div>
+              </article>
+
+              <article class="project-slide" data-index="2">
+                <a class="slide-visual" href="https://github.com/hallankazale/motoja" target="_blank" rel="noreferrer"><img src="assets/previews/motoja.svg" alt="Prévia visual do MotoJá" loading="lazy" /><span class="media-label">Mobilidade • UX</span><span class="visual-number">03</span></a>
+                <div class="slide-content"><div><p class="slide-kicker">MOBILIDADE</p><h3>MotoJá</h3><p>Protótipo de corridas de moto com jornada do passageiro, origem, destino, estimativa, busca do motociclista e avaliação.</p></div><div><div class="tech-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://github.com/hallankazale/motoja" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></div>
+              </article>
+
+              <article class="project-slide" data-index="3">
+                <a class="slide-visual" href="https://github.com/hallankazale/Assistaplay" target="_blank" rel="noreferrer"><img src="assets/previews/assistapay.svg" alt="Prévia visual do AssistaPay" loading="lazy" /><span class="media-label">Web • Produto</span><span class="visual-number">04</span></a>
+                <div class="slide-content"><div><p class="slide-kicker">PLATAFORMA WEB</p><h3>AssistaPay</h3><p>MVP de anúncios recompensados com perfis de usuário, anunciante e administração, carteira e validação de visualização.</p></div><div><div class="tech-list"><span>JavaScript</span><span>Produto</span><span>Admin</span></div><a class="project-link" href="https://github.com/hallankazale/Assistaplay" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></div>
+              </article>
+
+              <article class="project-slide" data-index="4">
+                <a class="slide-visual" href="https://github.com/hallankazale/professional-pdf-editor" target="_blank" rel="noreferrer"><img src="assets/previews/document-tool.svg" alt="Prévia visual do Professional PDF Editor" loading="lazy" /><span class="media-label">Ferramentas • Web</span><span class="visual-number">05</span></a>
+                <div class="slide-content"><div><p class="slide-kicker">FERRAMENTA</p><h3>Professional PDF Editor</h3><p>Editor web em arquitetura inicial, com TypeScript estrito, processamento local, privacidade e componentes desacoplados.</p></div><div><div class="tech-list"><span>TypeScript</span><span>PDF</span><span>Privacy</span></div><a class="project-link" href="https://github.com/hallankazale/professional-pdf-editor" target="_blank" rel="noreferrer">Abrir projeto <b>↗</b></a></div></div>
+              </article>
+
+              <article class="project-slide" data-index="5">
+                <a class="slide-visual" href="https://github.com/hallankazale/lembrete-medicamentos-releases" target="_blank" rel="noreferrer"><img src="assets/previews/reminder-app.svg" alt="Prévia visual do Lembrete de Medicamentos" loading="lazy" /><span class="media-label">Android • Releases</span><span class="visual-number">06</span></a>
+                <div class="slide-content"><div><p class="slide-kicker">ANDROID</p><h3>Lembrete de Medicamentos</h3><p>Aplicativo de lembretes com canal público de distribuição e atualização do APK, priorizando integridade e separação de segredos.</p></div><div><div class="tech-list"><span>Android</span><span>APK</span><span>Atualizações</span></div><a class="project-link" href="https://github.com/hallankazale/lembrete-medicamentos-releases" target="_blank" rel="noreferrer">Abrir releases <b>↗</b></a></div></div>
+              </article>
+            </div>
+          </div>
+
+          <div class="carousel-dots" id="carousel-dots" aria-label="Selecionar projeto">
+            <button class="dot is-active" type="button" data-slide="0" aria-label="Ir para Ozorio OS"></button>
+            <button class="dot" type="button" data-slide="1" aria-label="Ir para Pedido de Carnes"></button>
+            <button class="dot" type="button" data-slide="2" aria-label="Ir para MotoJá"></button>
+            <button class="dot" type="button" data-slide="3" aria-label="Ir para AssistaPay"></button>
+            <button class="dot" type="button" data-slide="4" aria-label="Ir para PDF Editor"></button>
+            <button class="dot" type="button" data-slide="5" aria-label="Ir para Lembrete de Medicamentos"></button>
+          </div>
+        </div>
       </div>
     </section>
+
     <section id="competencias" class="section container reveal"><div class="section-intro"><span class="section-index">03</span><div><p class="kicker">COMPETÊNCIAS</p><h2>Tecnologia aplicada a problemas reais.</h2></div></div><div class="skills-grid"><article><span class="skill-icon">⌘</span><h3>Frontend</h3><p>HTML, CSS, JavaScript, TypeScript e responsividade.</p></article><article><span class="skill-icon">▣</span><h3>Mobile</h3><p>React Native, Expo e persistência local.</p></article><article><span class="skill-icon">◇</span><h3>Arquitetura</h3><p>Separação clara de responsabilidades.</p></article><article><span class="skill-icon">◎</span><h3>UX/UI</h3><p>Hierarquia visual, jornadas simples e protótipos.</p></article><article><span class="skill-icon">›_</span><h3>Linux</h3><p>Customização, scripts e builds.</p></article><article><span class="skill-icon">✓</span><h3>Qualidade</h3><p>Validação, edge cases e testes.</p></article></div></section>
+
     <section class="section container reveal"><div class="lab-panel"><div><p class="kicker">LABORATÓRIO</p><h2>Mais projetos, protótipos e experimentos no GitHub.</h2><p>Meu perfil reúne sistemas, ferramentas, aplicativos e estudos que documentam minha evolução técnica.</p></div><a class="button primary" href="https://github.com/hallankazale?tab=repositories" target="_blank" rel="noreferrer">Explorar todos ↗</a></div></section>
+
     <section id="contato" class="section container reveal"><div class="contact-card"><p class="kicker">CONTATO</p><h2>Tem um problema que pode virar software?</h2><p>Veja meus projetos, código e evolução técnica diretamente no GitHub.</p><div class="contact-actions"><a class="button primary" href="https://github.com/hallankazale" target="_blank" rel="noreferrer">github.com/hallankazale ↗</a></div></div></section>
   </main>
+
   <footer class="container"><span>© <span id="year"></span> Hallan Kazale</span><span>Desenvolvimento • Produto • UX/UI</span></footer>
   <script src="script.js" defer></script>
 </body>
